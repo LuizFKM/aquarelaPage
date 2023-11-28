@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+header {
+    padding: 5px 30px;
+    background-color:rgba(245, 243, 113, 0.76);
+    border-bottom: 1px solid #fff;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.navbar {
+    flex-direction: column;
+}
+
+header img {
+    max-width: 300px;
+
+}
+
+.dropdown-menu,
+.dropdown-menu a {
+    background-color:rgb(245, 243, 113); 
+    color: rgb(42, 95, 72);
+    font-weight: 600;
+    border: none;
+    
+}
+
+.nav-link:focus, 
+.nav-link:hover {
+    color: rgb(164, 228, 200)
+}
+
+
+h1 {
+    color: rgb(42, 95, 72);
+}
+
+h2 {
+    text-align: center;
+    margin: 15px 0;
+    background-color: rgba(221, 221, 221, 0.521);
+    max-width: 100%;
+    padding: 10px 0;
+    color: rgb(106, 192, 155);
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: transparent;
+    border-radius: 0;
+    border-bottom: 2px solid rgb(42, 95, 72);
+    color: rgb(13, 192, 114);
+
+}
+
+.nav-link {
+    color: rgb(42, 95, 72);
+    font-weight: 600;
+}
+
+.carousel-item > img {
+    max-width: 100%;
+    
+}
+
+.carousel {
+    z-index: 0;
+}
+
+
+section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card-img-overlay {
+    background-color:rgba(0, 0, 0, 0.5);
+}
+
+.col {
+    margin-top: 10px;
+}
+
+.form-control {
+    background-color: transparent;
+    border: solid 1px rgb(42, 95, 72);
+}
+
+#sobre {
+    text-align: center;
+
+}
+
+#sobre p {
+    margin: 10px 0;
+    padding:15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: solid 1px #a3a3a3;
+    border-top: solid 1px #a3a3a3;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px 10px;
+    background-color:rgba(133, 133, 133, 0.616);
+    border-top: 1px solid #a3a3a3;
+    color: #fff;
+    text-align: center;
+}
+
+footer img {
+    max-width: 30px;
+}
+
+.icones a {
+    text-decoration: none;
+}
+
+.icones {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+#servicos {
+    height: 100vh;
+}

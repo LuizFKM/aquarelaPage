@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aquarela Festas</title>
+    <link rel="stylesheet" href="/lib/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg d-flex justify-content-between">
+            <img src="/Imagens/logoAquarela3.png" alt="">
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                <ul class="nav navbar-nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#inicio">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">A empresa</a>
+                    </li>
+                    <li class="nav-item dropdown"> <!-- menu dropdown dentro do navbar -->
+                        <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" href="#">
+                            Serviços
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" chref="#">Portfólio</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" chref="#">Pegue e monte</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" chref="#">Personalizados</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" chref="#">Brinquedos</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" chref="#">Fotógrafo</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Orçamentos</a>
+                            </li>
+                        </ul>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Fale conosco</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Procure" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">ir</button>
+                </form>
+            </nav>
+        </div>
+    </header>
+
+    <!--Carousel-->
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+        <div id="inicio">
+            <div class="carousel carousel-dark carousel-fade slide" id="carousel-intro" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div data-bs-interval="3000" class="carousel-item active">
+                        <img class="d-block w-100" src="/Imagens/15anos.jfif" alt="">
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img class="d-block w-100" src="/Imagens/jardim.jfif" alt="">
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img class="d-block w-100" src="/Imagens/1 aninho.jfif" alt="">
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img class="d-block w-100" src="/Imagens/cha revelação.jfif" alt="">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" data-bs-target="#carousel-intro" data-bs-slide="prev"
+                    type="button">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" data-bs-target="#carousel-intro" data-bs-slide="next"
+                    type="button">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel-intro" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel-intro" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel-intro" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carousel-intro" data-bs-slide-to="3"></button>
+                </div>
+            </div>
+            <!--Cards-->
+
+
+            <h2>Últimos Eventos</h2>
+            <div class="container">
+                <section id="ultimosEventos">
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+                        <div class="col">
+                            <article class="card text-bg-dark">
+                                <img src="/Imagens/1gael.jfif" alt="">
+                                <div class="card-img-overlay text-center ">
+                                    <h4 class="card-tittle">1º Aninho do Gael</h4>
+                                    <h5 class="card-subtittle">Tema fundo do mar</h5>
+                                    <p class="card-text ">Gael escolheu o fundo do mar como tema da sua primeira
+                                        festinha
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Fotos</a>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col">
+                            <article class="card text-bg-dark">
+                                <img src="/Imagens/miguel fazenda.jfif" alt="">
+                                <div class="card-img-overlay text-center">
+                                    <h4 class="card-tittle">Fazendinha do Miguel</h4>
+                                    <h5 class="card-subtittle">Tema Fazendinha</h5>
+                                    <p class="card-text">Miguel fez muita bagunça na roça</p>
+                                    <a href="#" class="btn btn-primary">Fotos</a>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col">
+                            <article class="card text-bg-dark">
+                                <img src="/Imagens/adolescente.jfif" alt="">
+                                <div class="card-img-overlay text-center">
+                                    <h4 class="card-tittle">Festa de 15 anos</h4>
+                                    <h5 class="card-subtittle">Uma Explosão de Alegria e Cores"</h5>
+                                    <p class="card-text">Tema que pode ser feito para adultos e festas de 15</p>
+                                    <a href="#" class="btn btn-primary">Fotos</a>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <h2>Mais um pouco do nosso trabalho</h2>
+            <div class="container">
+                <section>
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+                        <div class="col">
+                            <article class="card text-bg-dark">
+                                <div class="card-header text-center">
+                                    Arco de Balões
+                                </div>
+                                <img src="/Imagens/arco4.jfif" alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">Decore a sua loja!</h4>
+                                    <p class="card-text">Decore a faixada de sua loja com colunas ou arcos de balões</p>
+                                    <a href="#" class="btn btn-primary">Veja mais</a>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col">
+                            <article class="card text-bg-dark">
+                                <div class="card-header text-center">
+                                    Montagem de brinquedos
+                                </div>
+                                <img src="/Imagens/camaelastica.jfif" alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">Anime seu evento!</h4>
+                                    <p class="card-text">Anime seu evento com nossos briquedos!
+                                        Alugue cama elastíca e piscina de bolinhas.
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Veja mais</a>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col">
+                            <article class="card text-bg-dark">
+                                <div class="card-header text-center">
+                                    Arco de Balões
+                                </div>
+                                <img src="/Imagens/mercado2.jfif" alt="">
+                                <div class="card-body text-center">
+                                    <h4 class="card-title">Enfeite sua empresa</h4>
+                                    <p class="card-text">Decore a faixada de sua loja com colunas ou arcos de balões</p>
+                                    <a href="#" class="btn btn-primary">Veja mais</a>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <h2>Sobre a Empresa</h2>
+        <div class="container">
+            <section id="sobre">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti autem facere mollitia. Pariatur in
+                    vel
+                    voluptatibus doloremque, explicabo ratione eveniet consequatur, quae cupiditate, repellendus et
+                    voluptatem ab. Qui, tenetur ut. Voluptatibus voluptatum aliquam vero reiciendis eveniet. Commodi
+                    veniam
+                    aliquam iure nesciunt harum. Perferendis itaque quasi expedita nam blanditiis quos, obcaecati maxime
+                    laboriosam sapiente nobis, saepe nostrum odit quas officiis recusandae ullam a cum illo, doloremque
+                    consequatur asperiores ducimus? Nulla debitis, optio perspiciatis nisi nesciunt necessitatibus quas
+                    iure
+                    delectus quam quos!</p>
+            </section>
+        </div>
+        
+        <!--serviços separado por abas-->
+        <section id="servicos">
+            <h2>Nossos serviços</h2>
+            <div class="container">
+                <nav class="nav nav-tabs">
+                    <button data-bs-toggle="tab" data-bs-target="#aba1" class="nav-link active" type="button">Portfólio</button>
+                    <button data-bs-toggle="tab" data-bs-target="#aba2" class="nav-link" type="button">Pegue e monte</button>
+                    <button data-bs-toggle="tab" data-bs-target="#aba3" class="nav-link" type="button">Personalizados</button>
+                    <button data-bs-toggle="tab" data-bs-target="#aba4" class="nav-link" type="button">Brinquedos</button>
+                    <button data-bs-toggle="tab" data-bs-target="#aba5" class="nav-link" type="button">Fotógrafo</button>
+                    <button data-bs-toggle="tab" data-bs-target="#aba6" class="nav-link" type="button">Orçamentos</button>
+                </nav>
+                <div class="tab-content">
+                    <div id="aba1" class="tab-pane active">
+                        Conteúdo do Portfólio
+                    </div>
+                    <div id="aba2" class="tab-pane">
+                        Conteúdo do pegue e monte
+                    </div>
+                    <div id="aba3" class="tab-pane">
+                        Conteúdo do Personalizados
+                    </div>
+                    <div id="aba4" class="tab-pane">
+                        Conteúdo do Brinquedos
+                    </div>
+                    <div id="aba5" class="tab-pane">
+                        Conteúdo do Fotógrafo
+                    </div>
+                    <div id="aba6" class="tab-pane">
+                        Conteúdo do Orçamentos
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div> <!--div para scrool spy fecha-->
+
+    <footer id="contato">
+        <div>
+            2023 &copy; Aquarela Festas - Todos os direitos reservados
+            <p>Rua Galinha Pintadinha, 1122, Granja Comari</p>
+            <p>Converse com a gente e nos acompanhe nas redes socias!</p>
+        </div>
+        <div class="icones">
+            <a href="https://web.whatsapp.com/send?phone=554632623648" title="Converse com a gente">
+                <img src="/Imagens/pngwing.com.png" alt="">
+                </a>
+                <a href="https://www.instagram.com/aquarella_festas/" title="Siga-nos no instagram">
+                <img src="/Imagens/instagram.png" alt="">
+                </a>
+                <a href="https://www.facebook.com/aquarelafestaspalmas">
+                <img src="/Imagens/facebook.png" alt="Siga-nos no facebook">
+                </a>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <script src="/lib/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
