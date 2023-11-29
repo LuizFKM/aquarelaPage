@@ -66,8 +66,14 @@ h2 {
     font-weight: 600;
 }
 
+.carousel-item {
+    max-height: 100vh;
+}
+
 .carousel-item > img {
-    max-width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    width: auto;
     
 }
 
@@ -96,7 +102,7 @@ section {
 
 #sobre {
     text-align: center;
-
+    height: 100vh;
 }
 
 #sobre p {
@@ -134,4 +140,10 @@ footer img {
 
 #servicos {
     height: 100vh;
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        max-width: 90%;
+    }
 }
