@@ -10,10 +10,6 @@ header {
     padding: 5px 30px;
     background-color:rgba(245, 243, 113, 0.76);
     border-bottom: 1px solid #fff;
-    position: sticky;
-    top: 0;
-    left: 0;
-    z-index: 1;
 }
 
 .navbar {
